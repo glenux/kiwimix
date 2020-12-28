@@ -1,6 +1,6 @@
 
 GOFILES=$(wildcard *.go)
-NAME=musala-push
+NAME=kiwimix
 MJML_TEMPLATES=$(wildcard templates/*.mjml)
 MJML_OUTPUT=$(patsubst %.mjml,%.mjml.html,$(MJML_TEMPLATES))
 
@@ -43,6 +43,5 @@ test: build
 
 npm: 
 	npm install
-
 
 
